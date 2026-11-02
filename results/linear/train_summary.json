@@ -1,0 +1,24 @@
+{
+  "mode": "linear",
+  "arch": "resnet50",
+  "best_val_acc": 0.9510869565217391,
+  "best_epoch": 4,
+  "epochs_run": 15,
+  "minutes": 3.3,
+  "args": {
+    "mode": "linear",
+    "arch": "resnet50",
+    "epochs": 15,
+    "lr": 0.001,
+    "patience": 4,
+    "head_epochs": 3,
+    "head_lr": 0.001,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.1,
+    "batch_size": 32,
+    "data_dir": "data",
+    "num_workers": 4,
+    "seed": 42,
+    "no_amp": false
+  }
+}

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pet-breed-classifier"
+version = "0.1.0"
+description = "Classifies 37 cat and dog breeds by fine-tuning a pretrained ResNet-50 on Oxford-IIIT Pet."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Gauhet Poddar" }]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "matplotlib",
+    "numpy",
+    "Pillow",
+    "pyarrow",
+    "scikit-learn",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+demo = ["gradio"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

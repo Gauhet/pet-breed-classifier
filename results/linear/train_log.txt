@@ -1,0 +1,18 @@
+device: cuda | mode: linear | resnet50, 23,583,845 parameters
+trainable parameters with frozen backbone: 75,813
+[linear] epoch  1 | train loss 2.251 acc 0.730 | val loss 1.376 acc 0.932 | 40s  * saved
+[linear] epoch  2 | train loss 1.153 acc 0.943 | val loss 1.031 acc 0.940 | 7s  * saved
+[linear] epoch  3 | train loss 0.973 acc 0.948 | val loss 0.949 acc 0.946 | 7s  * saved
+[linear] epoch  4 | train loss 0.912 acc 0.960 | val loss 0.914 acc 0.951 | 8s  * saved
+[linear] epoch  5 | train loss 0.873 acc 0.967 | val loss 0.899 acc 0.938 | 8s
+[linear] epoch  6 | train loss 0.854 acc 0.969 | val loss 0.887 acc 0.948 | 8s
+[linear] epoch  7 | train loss 0.843 acc 0.975 | val loss 0.881 acc 0.943 | 10s
+[linear] epoch  8 | train loss 0.831 acc 0.974 | val loss 0.871 acc 0.946 | 16s
+[linear] epoch  9 | train loss 0.824 acc 0.975 | val loss 0.871 acc 0.946 | 16s
+[linear] epoch 10 | train loss 0.817 acc 0.978 | val loss 0.867 acc 0.943 | 11s
+[linear] epoch 11 | train loss 0.809 acc 0.980 | val loss 0.865 acc 0.946 | 13s
+[linear] epoch 12 | train loss 0.809 acc 0.980 | val loss 0.864 acc 0.943 | 12s
+[linear] epoch 13 | train loss 0.806 acc 0.980 | val loss 0.863 acc 0.943 | 13s
+[linear] epoch 14 | train loss 0.804 acc 0.981 | val loss 0.863 acc 0.943 | 13s
+[linear] epoch 15 | train loss 0.803 acc 0.979 | val loss 0.863 acc 0.943 | 13s
+best validation accuracy: 0.9511 at epoch 4 | 3.3 min

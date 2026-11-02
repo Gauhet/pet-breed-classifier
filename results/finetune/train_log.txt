@@ -1,0 +1,22 @@
+device: cuda | mode: finetune | resnet50, 23,583,845 parameters
+trainable parameters with frozen backbone: 75,813
+[head] epoch  1 | train loss 2.277 acc 0.729 | val loss 1.447 acc 0.929 | 40s  * saved
+[head] epoch  2 | train loss 1.253 acc 0.944 | val loss 1.159 acc 0.943 | 7s  * saved
+[head] epoch  3 | train loss 1.125 acc 0.945 | val loss 1.129 acc 0.946 | 7s  * saved
+unfrozen: training all 23,583,845 parameters
+[finetune] epoch  4 | train loss 1.015 acc 0.911 | val loss 0.895 acc 0.954 | 18s  * saved
+[finetune] epoch  5 | train loss 0.866 acc 0.955 | val loss 0.870 acc 0.940 | 18s
+[finetune] epoch  6 | train loss 0.827 acc 0.965 | val loss 0.832 acc 0.951 | 18s
+[finetune] epoch  7 | train loss 0.792 acc 0.978 | val loss 0.820 acc 0.957 | 18s  * saved
+[finetune] epoch  8 | train loss 0.762 acc 0.987 | val loss 0.832 acc 0.954 | 19s
+[finetune] epoch  9 | train loss 0.752 acc 0.986 | val loss 0.818 acc 0.951 | 18s
+[finetune] epoch 10 | train loss 0.739 acc 0.990 | val loss 0.825 acc 0.943 | 17s
+[finetune] epoch 11 | train loss 0.730 acc 0.990 | val loss 0.810 acc 0.954 | 17s
+[finetune] epoch 12 | train loss 0.724 acc 0.992 | val loss 0.799 acc 0.957 | 17s
+[finetune] epoch 13 | train loss 0.716 acc 0.996 | val loss 0.793 acc 0.957 | 18s
+[finetune] epoch 14 | train loss 0.713 acc 0.994 | val loss 0.795 acc 0.959 | 17s  * saved
+[finetune] epoch 15 | train loss 0.710 acc 0.995 | val loss 0.795 acc 0.957 | 17s
+[finetune] epoch 16 | train loss 0.709 acc 0.997 | val loss 0.789 acc 0.962 | 19s  * saved
+[finetune] epoch 17 | train loss 0.711 acc 0.994 | val loss 0.786 acc 0.965 | 19s  * saved
+[finetune] epoch 18 | train loss 0.708 acc 0.995 | val loss 0.782 acc 0.965 | 17s
+best validation accuracy: 0.9647 at epoch 17 | 5.4 min

@@ -1,0 +1,97 @@
+{
+  "mode": "linear",
+  "test_accuracy": 0.9163259863853455,
+  "test_top5_accuracy": 0.9986372590065002,
+  "best_epoch": 4,
+  "per_class_accuracy": {
+    "abyssinian": 0.8673469424247742,
+    "american_bulldog": 0.9300000071525574,
+    "american_pit_bull_terrier": 0.5600000023841858,
+    "basset_hound": 0.9700000286102295,
+    "beagle": 0.9800000190734863,
+    "bengal": 0.8999999761581421,
+    "birman": 0.8600000143051147,
+    "bombay": 0.9545454382896423,
+    "boxer": 0.9494949579238892,
+    "british_shorthair": 0.7799999713897705,
+    "chihuahua": 0.949999988079071,
+    "egyptian_mau": 0.7938144207000732,
+    "english_cocker_spaniel": 0.9800000190734863,
+    "english_setter": 0.9700000286102295,
+    "german_shorthaired": 1.0,
+    "great_pyrenees": 0.9700000286102295,
+    "havanese": 0.9800000190734863,
+    "japanese_chin": 1.0,
+    "keeshond": 0.9797979593276978,
+    "leonberger": 1.0,
+    "maine_coon": 0.800000011920929,
+    "miniature_pinscher": 0.949999988079071,
+    "newfoundland": 0.9900000095367432,
+    "persian": 0.9200000166893005,
+    "pomeranian": 1.0,
+    "pug": 0.9900000095367432,
+    "ragdoll": 0.6600000262260437,
+    "russian_blue": 0.75,
+    "saint_bernard": 0.9900000095367432,
+    "samoyed": 0.9900000095367432,
+    "scottish_terrier": 0.9898989796638489,
+    "shiba_inu": 1.0,
+    "siamese": 0.9200000166893005,
+    "sphynx": 0.8899999856948853,
+    "staffordshire_bull_terrier": 0.7415730357170105,
+    "wheaten_terrier": 0.949999988079071,
+    "yorkshire_terrier": 0.9800000190734863
+  },
+  "most_confused": [
+    {
+      "true": "american_pit_bull_terrier",
+      "predicted": "staffordshire_bull_terrier",
+      "count": 24
+    },
+    {
+      "true": "ragdoll",
+      "predicted": "birman",
+      "count": 23
+    },
+    {
+      "true": "egyptian_mau",
+      "predicted": "bengal",
+      "count": 19
+    },
+    {
+      "true": "american_pit_bull_terrier",
+      "predicted": "american_bulldog",
+      "count": 14
+    },
+    {
+      "true": "staffordshire_bull_terrier",
+      "predicted": "american_bulldog",
+      "count": 12
+    },
+    {
+      "true": "maine_coon",
+      "predicted": "bengal",
+      "count": 10
+    },
+    {
+      "true": "birman",
+      "predicted": "siamese",
+      "count": 10
+    },
+    {
+      "true": "staffordshire_bull_terrier",
+      "predicted": "american_pit_bull_terrier",
+      "count": 9
+    },
+    {
+      "true": "russian_blue",
+      "predicted": "bombay",
+      "count": 9
+    },
+    {
+      "true": "russian_blue",
+      "predicted": "british_shorthair",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+device: cuda | mode: scratch | resnet50, 23,583,845 parameters
+[scratch] epoch  1 | train loss 3.852 acc 0.040 | val loss 3.705 acc 0.052 | 57s  * saved
+[scratch] epoch  2 | train loss 3.580 acc 0.062 | val loss 3.536 acc 0.082 | 16s  * saved
+[scratch] epoch  3 | train loss 3.507 acc 0.064 | val loss 3.434 acc 0.071 | 16s
+[scratch] epoch  4 | train loss 3.445 acc 0.080 | val loss 3.320 acc 0.109 | 15s  * saved
+[scratch] epoch  5 | train loss 3.428 acc 0.089 | val loss 5.673 acc 0.071 | 16s
+[scratch] epoch  6 | train loss 3.391 acc 0.100 | val loss 3.501 acc 0.098 | 15s
+[scratch] epoch  7 | train loss 3.373 acc 0.109 | val loss 6.405 acc 0.084 | 15s
+[scratch] epoch  8 | train loss 3.307 acc 0.120 | val loss 3.270 acc 0.144 | 16s  * saved
+[scratch] epoch  9 | train loss 3.250 acc 0.135 | val loss 3.189 acc 0.188 | 15s  * saved
+[scratch] epoch 10 | train loss 3.219 acc 0.138 | val loss 3.106 acc 0.182 | 15s
+[scratch] epoch 11 | train loss 3.237 acc 0.142 | val loss 3.172 acc 0.144 | 15s
+[scratch] epoch 12 | train loss 3.163 acc 0.159 | val loss 3.120 acc 0.179 | 15s
+[scratch] epoch 13 | train loss 3.150 acc 0.165 | val loss 3.025 acc 0.212 | 15s  * saved
+[scratch] epoch 14 | train loss 3.101 acc 0.170 | val loss 2.959 acc 0.220 | 15s  * saved
+[scratch] epoch 15 | train loss 3.053 acc 0.196 | val loss 3.210 acc 0.149 | 17s
+[scratch] epoch 16 | train loss 3.043 acc 0.196 | val loss 2.911 acc 0.234 | 16s  * saved
+[scratch] epoch 17 | train loss 2.990 acc 0.212 | val loss 3.217 acc 0.209 | 16s
+[scratch] epoch 18 | train loss 3.035 acc 0.200 | val loss 3.005 acc 0.215 | 15s
+[scratch] epoch 19 | train loss 2.914 acc 0.223 | val loss 2.939 acc 0.226 | 15s
+[scratch] epoch 20 | train loss 2.912 acc 0.233 | val loss 2.762 acc 0.302 | 15s  * saved
+[scratch] epoch 21 | train loss 2.836 acc 0.249 | val loss 3.067 acc 0.204 | 15s
+[scratch] epoch 22 | train loss 2.760 acc 0.281 | val loss 2.671 acc 0.342 | 15s  * saved
+[scratch] epoch 23 | train loss 2.678 acc 0.307 | val loss 2.544 acc 0.342 | 15s
+[scratch] epoch 24 | train loss 2.644 acc 0.306 | val loss 2.747 acc 0.280 | 15s
+[scratch] epoch 25 | train loss 2.582 acc 0.335 | val loss 2.775 acc 0.258 | 15s
+[scratch] epoch 26 | train loss 2.494 acc 0.364 | val loss 2.638 acc 0.304 | 15s
+[scratch] epoch 27 | train loss 2.451 acc 0.369 | val loss 2.527 acc 0.348 | 15s  * saved
+[scratch] epoch 28 | train loss 2.431 acc 0.378 | val loss 2.444 acc 0.391 | 15s  * saved
+[scratch] epoch 29 | train loss 2.380 acc 0.393 | val loss 2.767 acc 0.307 | 15s
+[scratch] epoch 30 | train loss 2.306 acc 0.417 | val loss 2.416 acc 0.383 | 15s
+[scratch] epoch 31 | train loss 2.273 acc 0.436 | val loss 2.435 acc 0.394 | 15s  * saved
+[scratch] epoch 32 | train loss 2.271 acc 0.436 | val loss 2.331 acc 0.446 | 15s  * saved
+[scratch] epoch 33 | train loss 2.210 acc 0.464 | val loss 2.310 acc 0.416 | 15s
+[scratch] epoch 34 | train loss 2.127 acc 0.492 | val loss 2.222 acc 0.457 | 15s  * saved
+[scratch] epoch 35 | train loss 2.106 acc 0.505 | val loss 2.224 acc 0.462 | 15s  * saved
+[scratch] epoch 36 | train loss 2.046 acc 0.517 | val loss 2.446 acc 0.375 | 15s
+[scratch] epoch 37 | train loss 1.989 acc 0.527 | val loss 2.200 acc 0.481 | 15s  * saved
+[scratch] epoch 38 | train loss 1.942 acc 0.553 | val loss 2.356 acc 0.429 | 15s
+[scratch] epoch 39 | train loss 1.917 acc 0.566 | val loss 2.114 acc 0.511 | 15s  * saved
+[scratch] epoch 40 | train loss 1.875 acc 0.571 | val loss 2.067 acc 0.516 | 15s  * saved
+[scratch] epoch 41 | train loss 1.805 acc 0.608 | val loss 2.022 acc 0.516 | 15s
+[scratch] epoch 42 | train loss 1.769 acc 0.623 | val loss 2.018 acc 0.554 | 15s  * saved
+[scratch] epoch 43 | train loss 1.743 acc 0.630 | val loss 1.999 acc 0.538 | 15s
+[scratch] epoch 44 | train loss 1.688 acc 0.663 | val loss 1.949 acc 0.568 | 15s  * saved
+[scratch] epoch 45 | train loss 1.662 acc 0.664 | val loss 1.923 acc 0.571 | 15s  * saved
+[scratch] epoch 46 | train loss 1.632 acc 0.684 | val loss 1.961 acc 0.565 | 15s
+[scratch] epoch 47 | train loss 1.575 acc 0.703 | val loss 1.892 acc 0.584 | 15s  * saved
+[scratch] epoch 48 | train loss 1.564 acc 0.705 | val loss 1.912 acc 0.579 | 15s
+[scratch] epoch 49 | train loss 1.551 acc 0.710 | val loss 1.891 acc 0.565 | 15s
+[scratch] epoch 50 | train loss 1.494 acc 0.732 | val loss 1.864 acc 0.611 | 15s  * saved
+[scratch] epoch 51 | train loss 1.492 acc 0.735 | val loss 1.872 acc 0.614 | 15s  * saved
+[scratch] epoch 52 | train loss 1.472 acc 0.754 | val loss 1.853 acc 0.598 | 15s
+[scratch] epoch 53 | train loss 1.444 acc 0.767 | val loss 1.855 acc 0.595 | 15s
+[scratch] epoch 54 | train loss 1.442 acc 0.759 | val loss 1.853 acc 0.625 | 15s  * saved
+[scratch] epoch 55 | train loss 1.405 acc 0.780 | val loss 1.847 acc 0.620 | 15s
+[scratch] epoch 56 | train loss 1.407 acc 0.778 | val loss 1.834 acc 0.617 | 15s
+[scratch] epoch 57 | train loss 1.397 acc 0.778 | val loss 1.841 acc 0.617 | 15s
+[scratch] epoch 58 | train loss 1.396 acc 0.780 | val loss 1.838 acc 0.614 | 15s
+[scratch] epoch 59 | train loss 1.378 acc 0.792 | val loss 1.836 acc 0.614 | 15s
+[scratch] epoch 60 | train loss 1.389 acc 0.788 | val loss 1.837 acc 0.603 | 15s
+best validation accuracy: 0.6250 at epoch 54 | 16.1 min

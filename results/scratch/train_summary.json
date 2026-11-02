@@ -1,0 +1,24 @@
+{
+  "mode": "scratch",
+  "arch": "resnet50",
+  "best_val_acc": 0.625,
+  "best_epoch": 54,
+  "epochs_run": 60,
+  "minutes": 16.1,
+  "args": {
+    "mode": "scratch",
+    "arch": "resnet50",
+    "epochs": 60,
+    "lr": 0.001,
+    "patience": 10,
+    "head_epochs": 3,
+    "head_lr": 0.001,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.1,
+    "batch_size": 32,
+    "data_dir": "data",
+    "num_workers": 4,
+    "seed": 42,
+    "no_amp": false
+  }
+}
